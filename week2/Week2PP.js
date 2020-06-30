@@ -1,15 +1,15 @@
-let newH1 = document.createElement("h1");
+let newH1 = document.createElement("nh1");
 newH1.textContent = "Welcome To My JS Site"
-let header = document.getElementById("h1") ;
+let header = document.getElementById("nh1") ;
 header.append(newH1)
 
 let newP = document.createElement("p")
 newP.textContent = "Lorem Ipsum Lorem Ipsum Lorem Ipsum"
-document.body.append(newP)
+document.body.prepend(newP)
 
 let newLi = document.createElement("li");
 newLi.textContent = "headphones, radio, water, food, shoes"
-let myList = document.getElementById("h1") ;
+let myList = document.getElementById("list") ;
 myList.append(newLi)
 
 
