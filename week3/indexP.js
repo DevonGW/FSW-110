@@ -6,7 +6,7 @@ let colors = [
     "yellow",
 ]
 
-let colorList = document.getElementById("list")
+
 
 for(var i = 0; i< colors.length; i++){
     let newColor = document.createElement("h2")
